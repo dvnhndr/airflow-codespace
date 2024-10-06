@@ -1,0 +1,78 @@
+[2024-10-06T04:52:07.937+0000] {processor.py:186} INFO - Started process (PID=5017) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:52:07.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:52:07.940+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:07.940+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:52:07.948+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:52:08.053+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.053+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:multiple_tasks_devan
+[2024-10-06T04:52:08.068+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.068+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:multiple_tasks_devan
+[2024-10-06T04:52:08.077+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.077+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:multiple_tasks_devan
+[2024-10-06T04:52:08.093+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.092+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:multiple_tasks_devan
+[2024-10-06T04:52:08.105+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.105+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:multiple_tasks_devan
+[2024-10-06T04:52:08.115+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.114+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:multiple_tasks_devan
+[2024-10-06T04:52:08.124+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.123+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:multiple_tasks_devan
+[2024-10-06T04:52:08.124+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:52:08.133+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.133+0000] {dag.py:3262} INFO - Creating ORM DAG for multiple_tasks_devan
+[2024-10-06T04:52:08.141+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:08.141+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:52:08.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.231 seconds
+[2024-10-06T04:52:38.223+0000] {processor.py:186} INFO - Started process (PID=5081) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:52:38.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:52:38.226+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:38.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:52:38.233+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:52:38.248+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:38.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:52:38.267+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:52:38.266+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:52:38.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.065 seconds
+[2024-10-06T04:53:08.556+0000] {processor.py:186} INFO - Started process (PID=5146) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:53:08.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:53:08.558+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:53:08.558+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:53:08.565+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:53:08.580+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:53:08.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:53:08.598+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:53:08.598+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:53:08.614+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.063 seconds
+[2024-10-06T04:53:39.019+0000] {processor.py:186} INFO - Started process (PID=5210) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:53:39.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:53:39.022+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:53:39.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:53:39.029+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:53:39.043+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:53:39.043+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:53:39.063+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:53:39.063+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:53:39.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.066 seconds
+[2024-10-06T04:54:09.244+0000] {processor.py:186} INFO - Started process (PID=5274) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:54:09.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:54:09.247+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:54:09.246+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:54:09.254+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:54:09.269+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:54:09.268+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:54:09.287+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:54:09.287+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:54:09.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.066 seconds
+[2024-10-06T04:54:39.465+0000] {processor.py:186} INFO - Started process (PID=5338) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:54:39.466+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:54:39.468+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:54:39.467+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:54:39.475+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:54:39.489+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:54:39.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:54:39.508+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:54:39.507+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:54:39.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.064 seconds
+[2024-10-06T04:55:09.799+0000] {processor.py:186} INFO - Started process (PID=5402) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:55:09.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:55:09.801+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:55:09.801+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:55:09.808+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:55:09.823+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:55:09.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:55:09.841+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:55:09.841+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:55:09.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.064 seconds
+[2024-10-06T04:55:40.055+0000] {processor.py:186} INFO - Started process (PID=5466) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:55:40.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:55:40.057+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:55:40.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:55:40.064+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:55:40.079+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:55:40.079+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:55:40.098+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:55:40.097+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:55:40.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.065 seconds
+[2024-10-06T04:56:10.334+0000] {processor.py:186} INFO - Started process (PID=5531) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:10.334+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:56:10.336+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:10.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:10.343+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:10.357+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:10.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:56:10.375+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:10.375+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:56:10.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.065 seconds
+[2024-10-06T04:56:40.584+0000] {processor.py:186} INFO - Started process (PID=5595) to work on /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:40.585+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/multiple_task.py for tasks to queue
+[2024-10-06T04:56:40.586+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:40.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:40.594+0000] {processor.py:925} INFO - DAG(s) 'multiple_tasks_devan' retrieved from /opt/airflow/dags/multiple_task.py
+[2024-10-06T04:56:40.609+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:40.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-06T04:56:40.627+0000] {logging_mixin.py:190} INFO - [2024-10-06T04:56:40.626+0000] {dag.py:4180} INFO - Setting next_dagrun for multiple_tasks_devan to 2024-10-06 03:00:00+00:00, run_after=2024-10-06 04:00:00+00:00
+[2024-10-06T04:56:40.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/multiple_task.py took 0.064 seconds
